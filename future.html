@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What could the future look like? | Understanding AI</title>
+  <meta name="description" content="One researcher's warning about advanced AI, one estimate and a choice.">
+  <meta name="theme-color" content="#4338ff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234338ff'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial,sans-serif' font-weight='900' text-anchor='middle' fill='white'%3EAI%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="future">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <canvas class="binary-sphere" id="binary-sphere" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Understanding <span class="badge">AI</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what-is-ai.html">What is AI?</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="risks.html">Risks</a></li>
+        <li><a href="future.html" aria-current="page">Future</a></li>
+        <li><a href="how-made.html">How this website was made</a></li>
+        <li><a href="sources.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="site-header" aria-expanded="true" aria-label="Menu" hidden><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+
+  <main id="main">
+    <section class="hero hero-page" aria-label="Title">
+      <h1>Future</h1>
+      <a class="scroll-cue" href="#content" aria-label="Scroll to the content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></a>
+    </section>
+    <div class="content-wrap" id="content">
+      <h2 class="section-label reveal">Who is speaking</h2>
+
+      <div class="speakers">
+        <div class="card mini speaker reveal" style="--i:0"><span class="avatar" aria-hidden="true">JC</span><div><strong>Jacob Coxon</strong><span>Ex-Anthropic researcher</span></div></div>
+        <div class="card mini speaker reveal" style="--i:1"><span class="avatar avatar-blue" aria-hidden="true">EH</span><div><strong>Evan Hubinger</strong><span>Anthropic’s Alignment Science Lead</span></div></div>
+      </div>
+
+      <h2 class="section-label reveal">What was reported</h2>
+
+      <ul class="card claims reveal" aria-label="Statements from the report, each labelled as fact, opinion or prediction">
+        <li><span class="tag tag-fact">Fact</span><span>Coxon is reportedly leaving the AI industry rather than joining another major AI company.</span></li>
+        <li><span class="tag tag-fact">Fact</span><span>Hubinger publicly supported Coxon’s concerns.</span></li>
+        <li><span class="tag tag-opinion">Opinion</span><span>Many people at OpenAI have not fully understood the “civilizational stakes”, Coxon claims.</span></li>
+        <li><span class="tag tag-opinion">Opinion</span><span>Decisions about systems this powerful should not be left entirely to private companies.</span></li>
+        <li><span class="tag tag-prediction">Prediction</span><span>Advanced AI could pose an existential threat by the end of the decade.</span></li>
+      </ul>
+
+      <h2 class="section-label reveal">One person’s estimate</h2>
+
+      <figure class="card meter reveal">
+        <div class="meter-head"><strong>Hubinger’s personal estimate</strong><span>Not a verified fact</span></div>
+        <div class="meter-track" role="img" aria-label="A scale from 0 to 100 percent with the bar filled to 10 percent and an open end showing more than 10 percent">
+          <span class="meter-fill"></span><span class="meter-more"></span>
+          <span class="meter-flag">&gt;10%</span>
+        </div>
+        <div class="meter-scale" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>
+        <p>He believes there is a greater than 10% chance that AI could kill all humans within the next decade. He rates the risks from current models as low.</p>
+      </figure>
+
+      <h2 class="section-label reveal">A choice, in Coxon’s words</h2>
+
+      <div class="fork reveal">
+        <div class="fork-start">Powerful AI</div>
+        <svg class="fork-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path pathLength="1" vector-effect="non-scaling-stroke" d="M0,50 C50,50 50,25 100,25"/>
+          <path pathLength="1" vector-effect="non-scaling-stroke" d="M0,50 C50,50 50,75 100,75"/>
+        </svg>
+        <div class="fork-options">
+          <div class="fork-option"><strong>Race ahead</strong><span>Competitors may move faster</span></div>
+          <div class="fork-option fork-good"><strong>Coordinate</strong><span>Regulation, maybe a temporary pause</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p class="src-label"><strong>Sources:</strong></p>
+      <ul class="src-list"><li><a class="src-btn" href="https://propakistani.pk/2026/09/09/anthropic-researcher-quits-job-says-ai-could-kill-us-all/" target="_blank" rel="noopener noreferrer">Malik, 2026<span class="sr-only"> (opens the source in a new tab)</span></a></li></ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

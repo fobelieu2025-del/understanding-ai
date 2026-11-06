@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Understanding AI</title>
+  <meta name="description" content="A simple explainer on artificial intelligence: what it is, its benefits, its risks and its possible futures.">
+  <meta name="theme-color" content="#4338ff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234338ff'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial,sans-serif' font-weight='900' text-anchor='middle' fill='white'%3EAI%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <canvas class="binary-sphere" id="binary-sphere" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Understanding <span class="badge">AI</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="what-is-ai.html">What is AI?</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="risks.html">Risks</a></li>
+        <li><a href="future.html">Future</a></li>
+        <li><a href="how-made.html">How this website was made</a></li>
+        <li><a href="sources.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="site-header" aria-expanded="true" aria-label="Menu" hidden><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+
+  <main id="main">
+    <section class="hero hero-home" aria-label="Title">
+      <h1>Understanding AI</h1>
+      <a class="scroll-cue" href="#content" aria-label="Scroll to the content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></a>
+    </section>
+    <div class="content-wrap wide" id="content">
+      <div class="tiles">
+        <a class="tile reveal" style="--i:0" href="what-is-ai.html"><h2>What is artificial intelligence?</h2></a>
+        <a class="tile reveal" style="--i:1" href="benefits.html"><h2>What are its benefits?</h2></a>
+        <a class="tile reveal" style="--i:2" href="risks.html"><h2>What are its challenges and risks?</h2></a>
+        <a class="tile reveal" style="--i:3" href="future.html"><h2>What could the future look like?</h2></a>
+      </div>
+      <ul class="pills reveal">
+        <li><a class="pill" href="how-made.html">How this website was made</a></li>
+        <li><a class="pill" href="sources.html">Sources</a></li>
+      </ul>
+    </div>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

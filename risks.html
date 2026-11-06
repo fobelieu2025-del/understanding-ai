@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What are its challenges and risks? | Understanding AI</title>
+  <meta name="description" content="AI and electricity demand, plus a personal view on over-reliance on chatbots.">
+  <meta name="theme-color" content="#4338ff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234338ff'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial,sans-serif' font-weight='900' text-anchor='middle' fill='white'%3EAI%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="risks">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <canvas class="binary-sphere" id="binary-sphere" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Understanding <span class="badge">AI</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what-is-ai.html">What is AI?</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="risks.html" aria-current="page">Risks</a></li>
+        <li><a href="future.html">Future</a></li>
+        <li><a href="how-made.html">How this website was made</a></li>
+        <li><a href="sources.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="site-header" aria-expanded="true" aria-label="Menu" hidden><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+
+  <main id="main">
+    <section class="hero hero-page" aria-label="Title">
+      <h1>Risks</h1>
+      <a class="scroll-cue" href="#content" aria-label="Scroll to the content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></a>
+    </section>
+    <div class="content-wrap" id="content">
+      <h2 class="section-label reveal">The big picture</h2>
+
+      <figure class="card evidence reveal">
+        <blockquote>
+          <p>Electricity bills are projected to surge by more than 20% this summer in some parts of PJM Interconnection's territory, which covers 13 states - from Illinois to Tennessee, Virginia to New Jersey - serving 67 million customers in a region with the most data centers in the world.</p>
+          <p>High prices out of the auction should spur new power plant construction, but that hasn’t happened quickly enough in PJM's region as aging power plants continue to retire and data center demand explodes.</p>
+        </blockquote>
+      </figure>
+
+      <h2 class="section-label reveal">Cause and effect</h2>
+
+      <figure class="chain-wrap reveal">
+        <ol class="chain" aria-label="Simplified chain of cause and effect">
+          <li style="--k:0">AI use grows</li>
+          <li style="--k:1">Data centers expand</li>
+          <li style="--k:2">Power supply lags</li>
+          <li class="end" style="--k:3">Bills projected up</li>
+        </ol>
+      </figure>
+
+      <h2 class="section-label reveal">The numbers</h2>
+
+      <div class="stats risk-stats">
+        <div class="card mini stat stat-blue reveal" style="--i:0"><strong><span class="count" data-to="20" data-suffix="%+">20%+</span></strong><span>projected rise, summer 2025, in some areas</span></div>
+        <div class="card mini stat reveal" style="--i:1"><strong><span class="count" data-to="13" data-suffix="">13</span></strong><span>states in the grid region</span></div>
+        <div class="card mini stat reveal" style="--i:2"><strong><span class="count" data-to="67" data-suffix=" million">67 million</span></strong><span>customers served</span></div>
+      </div>
+
+      <h2 class="section-label reveal">The personal side</h2>
+
+      <figure class="chat reveal" aria-label="Illustration of a person confiding in a chatbot and receiving advice">
+        <div class="bubble me"><small>Me</small>I feel stuck…</div>
+        <div class="bubble ai"><small>AI</small>Here is what you should do…</div>
+      </figure>
+
+      <section class="card own-words reveal" aria-labelledby="anecdote-risks">
+        <h2 id="anecdote-risks">Personal anecdote</h2>
+        <p>I find that nowadays people rely and allow themselves to switch off their brain because they have the comfort of AI giving them responses in situations where otherwise I would argue using your brain is better. For example, certain classmates of mine have openly stated that they are comfortable using ChatGPT as a therapist. That means they confide their feelings in it and expect the chatbot to tell them what the best course of actions are based on what their feelings are.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p class="src-label"><strong>Sources:</strong></p>
+      <ul class="src-list"><li><a class="src-btn" href="https://www.thestar.com.my/tech/tech-news/2025/07/09/analysis-america039s-largest-power-grid-is-struggling-to-meet-demand-from-ai" target="_blank" rel="noopener noreferrer">Kearney, 2025<span class="sr-only"> (opens the source in a new tab)</span></a></li></ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

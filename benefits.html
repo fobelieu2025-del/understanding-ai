@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What are its benefits? | Understanding AI</title>
+  <meta name="description" content="Evidence of AI benefits in cancer screening and protein science, plus a personal study example.">
+  <meta name="theme-color" content="#4338ff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234338ff'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial,sans-serif' font-weight='900' text-anchor='middle' fill='white'%3EAI%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="benefits">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <canvas class="binary-sphere" id="binary-sphere" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Understanding <span class="badge">AI</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what-is-ai.html">What is AI?</a></li>
+        <li><a href="benefits.html" aria-current="page">Benefits</a></li>
+        <li><a href="risks.html">Risks</a></li>
+        <li><a href="future.html">Future</a></li>
+        <li><a href="how-made.html">How this website was made</a></li>
+        <li><a href="sources.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="site-header" aria-expanded="true" aria-label="Menu" hidden><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+
+  <main id="main">
+    <section class="hero hero-page" aria-label="Title">
+      <h1>Benefits</h1>
+      <a class="scroll-cue" href="#content" aria-label="Scroll to the content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></a>
+    </section>
+    <div class="content-wrap" id="content">
+      <h2 class="section-label reveal">The study</h2>
+
+      <figure class="card evidence reveal">
+        <blockquote>
+          <p>A recent observational study has shown that AI can significantly enhance breast cancer detection rates in mammography screening without increasing unnecessary recalls. The multicenter study, conducted at 12 screening sites in Germany, represents one of the largest real-world implementations of AI in population-based cancer detection to date.</p>
+          <p>From July 2021 to February 2023, researchers analyzed data from 463,094 women aged 50–69 who underwent mammography screening. Of these, 260,739 participants were screened using an AI-supported double-reading process, where radiologists voluntarily incorporated AI into their evaluations.</p>
+        </blockquote>
+      </figure>
+
+      <h2 class="section-label reveal">The numbers</h2>
+
+      <div class="data-panel">
+        <div class="stats">
+          <div class="card mini stat reveal" style="--i:0"><strong>463,094</strong><span>women screened</span></div>
+          <div class="card mini stat reveal" style="--i:1"><strong>12</strong><span>screening sites</span></div>
+          <div class="card mini stat stat-blue reveal" style="--i:2"><strong>17.6%</strong><span>more cancers found</span></div>
+        </div>
+
+        <p class="legend reveal"><span><i class="key key-without"></i>Without AI</span><span><i class="key key-with"></i>With AI</span></p>
+        <div class="charts">
+        <figure class="card mini chart reveal" style="--i:0">
+          <h3>Cancers found per 1,000 women</h3>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar without" style="--w:71.25%"></span></span><b><span class="sr-only">Without AI: </span>5.7</b></div>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar with" style="--w:83.75%"></span></span><b><span class="sr-only">With AI: </span>6.7</b></div>
+        </figure>
+        <figure class="card mini chart reveal" style="--i:1">
+          <h3>Women called back per 1,000</h3>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar without" style="--w:85.11%"></span></span><b><span class="sr-only">Without AI: </span>38.3</b></div>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar with" style="--w:83.11%"></span></span><b><span class="sr-only">With AI: </span>37.4</b></div>
+        </figure>
+        <figure class="card mini chart reveal" style="--i:2">
+          <h3>Call-backs that were cancer</h3>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar without" style="--w:59.6%"></span></span><b><span class="sr-only">Without AI: </span>14.9%</b></div>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar with" style="--w:71.6%"></span></span><b><span class="sr-only">With AI: </span>17.9%</b></div>
+        </figure>
+        <figure class="card mini chart reveal" style="--i:3">
+          <h3>Biopsies that found cancer</h3>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar without" style="--w:59.2%"></span></span><b><span class="sr-only">Without AI: </span>59.2%</b></div>
+          <div class="bar-row"><span class="track" aria-hidden="true"><span class="bar with" style="--w:64.5%"></span></span><b><span class="sr-only">With AI: </span>64.5%</b></div>
+        </figure>
+        </div>
+
+        <p class="dots-note reveal">Each dot is one woman. Blue dots had cancer found.</p>
+        <div class="dots-row">
+          <figure class="card mini dots-card reveal" style="--i:0">
+            <h3>Without AI: 5.7 per 1,000</h3>
+            <div class="dots" role="img" aria-label="A grid of 1,000 dots with 5.7 highlighted"><i style="left:117.5px;top:5.5px;--k:0"></i><i style="left:89.5px;top:33.5px;--k:1"></i><i style="left:194.5px;top:61.5px;--k:2"></i><i style="left:222.5px;top:82.5px;--k:3"></i><i style="left:68.5px;top:117.5px;--k:4"></i><i class="part" style="left:215.5px;top:145.5px;--k:5"></i></div>
+          </figure>
+          <figure class="card mini dots-card reveal" style="--i:1">
+            <h3>With AI: 6.7 per 1,000</h3>
+            <div class="dots" role="img" aria-label="A grid of 1,000 dots with 6.7 highlighted"><i style="left:117.5px;top:5.5px;--k:0"></i><i style="left:89.5px;top:33.5px;--k:1"></i><i style="left:194.5px;top:61.5px;--k:2"></i><i style="left:222.5px;top:82.5px;--k:3"></i><i style="left:68.5px;top:117.5px;--k:4"></i><i style="left:215.5px;top:145.5px;--k:5"></i><i class="part" style="left:166.5px;top:159.5px;--k:6"></i></div>
+          </figure>
+        </div>
+      </div>
+
+      <h2 class="section-label reveal">The findings</h2>
+
+      <figure class="card evidence reveal">
+        <blockquote>
+          <p>These findings suggest AI can improve mammography screening, with higher detection rates, while avoiding excessive recalls.</p>
+        </blockquote>
+      </figure>
+
+      <h2 class="section-label reveal">AlphaFold</h2>
+
+      <figure class="card fold-card reveal">
+        <p>AlphaFold is an AI system that predicts the 3D shape of a protein from its amino acid sequence. Its public database now holds over 200 million predicted structures, and over one million users from nearly every country.</p>
+        <svg class="fold" viewBox="0 0 560 260" role="img" aria-label="A chain of beads folding into a compact shape, like a protein folding"><polyline points="414.3,142.5 383.5,166.7 345.8,185.0 316.5,195.5 303.8,197.9 305.6,193.4 310.6,184.2 304.8,173.1 279.7,162.7 236.8,154.6 188.1,149.5 150.1,146.9 135.9,145.0 149.1,141.9 181.9,135.6 219.2,125.0 246.4,110.2 256.6,92.5 253.5,74.4 249.3,59.0 257.5,49.4 285.6,48.1 330.2,56.0 378.4,72.7 413.6,96.2 423.8,123.1 407.1,149.8 372.7,172.7"/><circle cx="414.3" cy="142.5" r="9.1" opacity="0.93"/><circle cx="383.5" cy="166.7" r="9.7" opacity="0.98"/><circle cx="345.8" cy="185.0" r="10.0" opacity="1.00"/><circle cx="316.5" cy="195.5" r="9.9" opacity="0.99"/><circle cx="303.8" cy="197.9" r="9.6" opacity="0.97"/><circle cx="305.6" cy="193.4" r="8.9" opacity="0.91"/><circle cx="310.6" cy="184.2" r="8.1" opacity="0.85"/><circle cx="304.8" cy="173.1" r="7.2" opacity="0.78"/><circle cx="279.7" cy="162.7" r="6.3" opacity="0.71"/><circle cx="236.8" cy="154.6" r="5.6" opacity="0.65"/><circle cx="188.1" cy="149.5" r="5.1" opacity="0.61"/><circle cx="150.1" cy="146.9" r="5.0" opacity="0.60"/><circle cx="135.9" cy="145.0" r="5.2" opacity="0.61"/><circle cx="149.1" cy="141.9" r="5.7" opacity="0.65"/><circle cx="181.9" cy="135.6" r="6.4" opacity="0.71"/><circle cx="219.2" cy="125.0" r="7.3" opacity="0.78"/><circle cx="246.4" cy="110.2" r="8.2" opacity="0.86"/><circle cx="256.6" cy="92.5" r="9.0" opacity="0.92"/><circle cx="253.5" cy="74.4" r="9.6" opacity="0.97"/><circle cx="249.3" cy="59.0" r="10.0" opacity="1.00"/><circle cx="257.5" cy="49.4" r="10.0" opacity="1.00"/><circle cx="285.6" cy="48.1" r="9.6" opacity="0.97"/><circle cx="330.2" cy="56.0" r="9.0" opacity="0.92"/><circle cx="378.4" cy="72.7" r="8.2" opacity="0.86"/><circle cx="413.6" cy="96.2" r="7.3" opacity="0.79"/><circle cx="423.8" cy="123.1" r="6.4" opacity="0.72"/><circle cx="407.1" cy="149.8" r="5.7" opacity="0.66"/><circle cx="372.7" cy="172.7" r="5.2" opacity="0.62"/></svg>
+        <figcaption>A chain of amino acids folds into a 3D shape.</figcaption>
+      </figure>
+
+      <div class="stats stats-4">
+        <div class="card mini stat stat-blue reveal" style="--i:0"><strong>200M+</strong><span>protein structures predicted</span></div>
+        <div class="card mini stat reveal" style="--i:1"><strong>1M+</strong><span>users</span></div>
+        <div class="card mini stat reveal" style="--i:2"><strong>1M+</strong><span>organisms covered</span></div>
+        <div class="card mini stat reveal" style="--i:3"><strong>2024</strong><span>Nobel Prize in Chemistry</span></div>
+      </div>
+
+      <section class="card own-words reveal" aria-labelledby="anecdote-benefits">
+        <h2 id="anecdote-benefits">Personal anecdote</h2>
+        <p>I find AI to be incredibly beneficial when it comes to creating practice tests for studying. I also find it useful for simplifying harder concepts into something tangibly understandable.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p class="src-label"><strong>Sources:</strong></p>
+      <ul class="src-list"><li><a class="src-btn" href="https://www.emjreviews.com/oncology/news/ai-boosts-breast-cancer-detection-in-real-world-study/" target="_blank" rel="noopener noreferrer">anayamalik, 2025<span class="sr-only"> (opens the source in a new tab)</span></a></li><li><a class="src-btn" href="https://doi.org/10.1038/s41591-024-03408-6" target="_blank" rel="noopener noreferrer">Eisemann et al., 2025<span class="sr-only"> (opens the source in a new tab)</span></a></li><li><a class="src-btn" href="https://www.embl.org/news/science-technology/alphafold-wins-nobel-prize-chemistry-2024/" target="_blank" rel="noopener noreferrer">EMBL Communications, 2024<span class="sr-only"> (opens the source in a new tab)</span></a></li></ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
